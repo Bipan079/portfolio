@@ -2,13 +2,14 @@
 body {
     font-family: Arial, sans-serif;
     padding: 0;
-    background-color: #5e5e5e; /* Black background */
-    color: #000000; /* Neon green text */
+    background-color: #282a36; /* Dracula-themed dark background */
+    color: #f8f8f2; /* Light text for contrast */
     line-height: 1.6;
     overflow: auto;
 }
-body h1, h2{
-    color: #00ffff; /* Changed from red to bright cyan */
+
+body h1, h2 {
+    color: #00ffff; /* Bright cyan headings */
 }
 
 .projects, .certifications, .contact {
@@ -43,12 +44,11 @@ body h1, h2{
 .intro p {
     font-size: 18px;
     margin-right: 50px;
-    color: #000000; /* Lighter green for paragraph text */
+    color: #f8f8f2; /* Light paragraph text for contrast */
 }
 
 .social-links {
     margin-top: 15px;
-    
 }
 
 .social-links a {
@@ -58,7 +58,7 @@ body h1, h2{
 }
 
 .about-btn {
-    background-color: #00ffff; /* Changed from red to bright cyan */
+    background-color: #00ffff; /* Bright cyan button */
     color: #000; /* Black text */
     padding: 10px 20px;
     border-radius: 5px;
@@ -67,7 +67,7 @@ body h1, h2{
 }
 
 .about-btn:hover {
-    background-color: #f7baa7; /* Lighter green for hover */
+    background-color: #f7baa7; /* Light pink hover */
 }
 
 /* Lottie Animation */
@@ -80,7 +80,7 @@ dotlottie-player {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #00ffff; /* Changed from red to bright cyan */
+    background-color: #00ffff; /* Bright cyan navbar */
     color: #000000;
     padding: 10px;
     margin: 0;
@@ -124,12 +124,12 @@ dotlottie-player {
 
 .about-me-main-content h1 {
     font-size: 36px;
-    color: #000000;
+    color: #f8f8f2; /* Light text for contrast */
 }
 
 /* Contact Section */
 .contact a {
-    color: #000000; 
+    color: #00ffff; /* Bright cyan links */
 }
 
 .contact a:hover {
@@ -140,5 +140,5 @@ dotlottie-player {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #000000;
+    color: #f8f8f2; /* Light footer text */
 }
