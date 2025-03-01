@@ -8,7 +8,7 @@ body {
     overflow: auto;
 }
 body h1, h2{
-    color: #d92500;
+    color: #00ffff; /* Changed from red to bright cyan */
 }
 
 .projects, .certifications, .contact {
@@ -58,7 +58,7 @@ body h1, h2{
 }
 
 .about-btn {
-    background-color: #d92500;
+    background-color: #00ffff; /* Changed from red to bright cyan */
     color: #000; /* Black text */
     padding: 10px 20px;
     border-radius: 5px;
@@ -72,17 +72,15 @@ body h1, h2{
 
 /* Lottie Animation */
 dotlottie-player {
-
     align-self: right;
     width: 500px; /* Increase width */
     height: 400px;
     margin-left: 50px; /* Push it further right */
 }
 
-
 /* Navigation Bar */
 .navbar {
-    background-color: #d92500;
+    background-color: #00ffff; /* Changed from red to bright cyan */
     color: #000000;
     padding: 10px;
     margin: 0;
